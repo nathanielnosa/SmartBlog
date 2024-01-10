@@ -2,6 +2,7 @@ import slide1 from "../../assets/img/slide-1.jpg"
 import slide2 from "../../assets/img/slide-2.jpg"
 import slide3 from "../../assets/img/slide-3.jpg"
 const Slider = () => {
+
     return (
         <div>
             <div id="carouselId" className="carousel slide" data-bs-ride="carousel">
@@ -55,6 +56,8 @@ const Slider = () => {
             </div>
         </div>
     )
+
+
 }
 
 export default Slider

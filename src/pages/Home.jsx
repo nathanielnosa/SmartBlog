@@ -2,8 +2,6 @@ import Navbar from "../components/Navbar/Navbar"
 import { useState } from "react"
 import Slider from "../components/slider/Slider"
 
-<Slider />
-
 const Home = () => {
     const [title, setTitle] = useState("Hello the text change")
 
