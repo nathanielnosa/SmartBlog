@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import { NavLinks } from './data';
 import './navbar.css'
 const Navbar = () => {
     const logoStyle = {
@@ -15,15 +17,13 @@ const Navbar = () => {
                     </button>
                     <div className="collapse navbar-collapse" id="collapsibleNavbar">
                         <ul className="navbar-nav ms-auto">
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Home</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">About</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link" href="#">Contact</a>
-                            </li>
+                            {
+                                NavLinks.map(({ key, route, label }) => (
+                                    <li className="nav-item" key={key}>
+                                        <Link to={route} className='nav-link'>{label}</Link>
+                                    </li>
+                                ))
+                            }
                         </ul>
                     </div>
                 </div>
