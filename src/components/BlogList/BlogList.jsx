@@ -5,7 +5,7 @@ const BlogList = ({ blogs, onHandleDelete }) => {
     <>
       <div className="row" >
         {
-          blogs.map(({ id, title, post, author, img }) => (
+          blogs.map(({ id, title, body, author, img }) => (
             <div key={id} className="col-md-3">
               <div className="card">
                 <div className="card-img">
@@ -13,7 +13,7 @@ const BlogList = ({ blogs, onHandleDelete }) => {
                 </div>
                 <div className="card-header">{title}</div>
                 <div className="card-body">
-                  <p className="lead">{post}</p>
+                  <p className="lead">{body}</p>
                 </div>
                 <div className="card-footer d-flex justify-content-between align-items-center">
                   By: {author}

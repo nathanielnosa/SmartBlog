@@ -1,0 +1,28 @@
+{
+    "blogs": [
+        {
+            "id": 1,
+            "title": "Learn HTML",
+            "body": "Lorem ipsum dols minus facere laboriosam, voluptatibus blanditiis ipsam ex.",
+            "author": "Nathaniel"
+        },
+        {
+            "id": 2,
+            "title": "Learn Css",
+            "body": "Lorem ipsum dols minus facere laboriosam, voluptatibus blanditiis ipsam ex.",
+            "author": "Nosa"
+        },
+        {
+            "id": 3,
+            "title": "Learn Git",
+            "body": "Lorem ipsum dols minus facere laboriosam, voluptatibus blanditiis ipsam ex.",
+            "author": "Ncode"
+        },
+        {
+            "id": 4,
+            "title": "Learn Css",
+            "body": "Lorem ipsum dols minus facere laboriosam, voluptatibus blanditiis ipsam ex.",
+            "author": "Unknown"
+        }
+    ]
+}
